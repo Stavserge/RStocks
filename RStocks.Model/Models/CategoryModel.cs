@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RStocks.Model
+namespace RStocks.Model.Models
 {
-    public class Class1
+    public class CategoryModel
     {
     }
 }
