@@ -10,4 +10,14 @@
     <ParentId xsi:nil="true" />
     <CategoryName>Some new category14.09.2014 13:10:35</CategoryName>
   </CategoryModel>
+  <CategoryModel>
+    <Id>3</Id>
+    <ParentId>1</ParentId>
+    <CategoryName>SubCategory 1</CategoryName>
+  </CategoryModel>
+  <CategoryModel>
+    <Id>4</Id>
+    <ParentId>3</ParentId>
+    <CategoryName>Sub SubCategory 1</CategoryName>
+  </CategoryModel>
 </ArrayOfCategoryModel>
