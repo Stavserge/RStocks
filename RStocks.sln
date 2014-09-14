@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RStocks.Model", "RStocks.Mo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RStocks.Tests", "RStocks.Tests\RStocks.Tests.csproj", "{6D6F00B8-7BC7-411E-AEFB-54E7872327AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RStocks.XMLStorage", "RStocks.XMLStorage\RStocks.XMLStorage.csproj", "{CAEBF7BB-256E-42F0-8928-11A4DC555599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RStocks.WinClient", "RStocks.WinClient\RStocks.WinClient.csproj", "{D5739725-7612-4849-B2A7-C5B246255A75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{6D6F00B8-7BC7-411E-AEFB-54E7872327AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D6F00B8-7BC7-411E-AEFB-54E7872327AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D6F00B8-7BC7-411E-AEFB-54E7872327AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAEBF7BB-256E-42F0-8928-11A4DC555599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAEBF7BB-256E-42F0-8928-11A4DC555599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAEBF7BB-256E-42F0-8928-11A4DC555599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAEBF7BB-256E-42F0-8928-11A4DC555599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5739725-7612-4849-B2A7-C5B246255A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5739725-7612-4849-B2A7-C5B246255A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5739725-7612-4849-B2A7-C5B246255A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5739725-7612-4849-B2A7-C5B246255A75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
