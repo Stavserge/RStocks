@@ -18,7 +18,13 @@ namespace RStocks.WinClient
         public Form1()
         {
             InitializeComponent();
-            CatRepository.GetCategories(null);
+            var r = CatRepository.GetCategories(null);
+            dataGridView1.DataSource = r;
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
