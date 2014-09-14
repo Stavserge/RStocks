@@ -20,6 +20,8 @@ namespace RStocks.WinClient
 
         private void Move()
         {
+            dataGridView1.DataSource = null;
+            
             var r = CatRepository.GetCategories(parentId);
             dataGridView1.DataSource = r;
         }

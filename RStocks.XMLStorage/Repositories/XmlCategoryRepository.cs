@@ -20,6 +20,7 @@ namespace RStocks.XMLStorage.Repositories
         private List<CategoryModel> _allCategories;
         private void FlushToDisk()
         {
+            GC.Collect();
             XmlFileStorage.SaveContainerToFile(_allCategories, fullFileName);
         }
 
@@ -40,6 +41,7 @@ namespace RStocks.XMLStorage.Repositories
        
         public override List<CategoryModel> GetCategories(int? paretnCategoryId)
         {
+            GC.Collect();
             return _allCategories.Where(x=>x.ParentId == paretnCategoryId).ToList();
         }
 
