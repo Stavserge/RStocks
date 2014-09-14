@@ -14,8 +14,7 @@ namespace RStocks.WinClient
         /// The main entry point for the application.
         /// </summary>
 
-
-        public static IRepositoryFactory RepositoryFactory = new XmlRepositoryFactory();
+        public static IRepositoryFactory RepositoryFactory = new XmlRepositoryFactory(Application.StartupPath);
 
         [STAThread]
         static void Main()

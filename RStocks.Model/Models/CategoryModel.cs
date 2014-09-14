@@ -9,6 +9,7 @@ namespace RStocks.Model.Models
     public class CategoryModel
     {
         public int Id { get; set; }
+        public int? ParentId { get; set; }
         public string CategoryName { get; set; }
     }
 }
